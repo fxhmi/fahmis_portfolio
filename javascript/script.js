@@ -69,3 +69,13 @@ function linkAction(){
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
 console.log("Remove menu profile")
+
+// Typewriter Effect
+
+new Typewriter('#typewriter', {
+  strings: ['Fahmi', 'Web developer', 'Fast learner'],
+  autoStart: true,
+  loop: true,
+  cursor:"|",
+});
+console.log("Typwriter active")
