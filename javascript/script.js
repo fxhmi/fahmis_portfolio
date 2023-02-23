@@ -73,7 +73,7 @@ console.log("Remove menu profile")
 // Typewriter Effect
 
 new Typewriter('#typewriter', {
-  strings: ['Fahmi', 'Web developer', 'Fast learner'],
+  strings: ['Fahmi', 'Front-end Developer', 'Back-end Developer', 'Passionate Learner'],
   autoStart: true,
   loop: true,
   cursor:"|",
